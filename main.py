@@ -14,7 +14,7 @@ def fd(img, size=0.5):
     
     #converted to grayscale for optimisation purposes
    
-#this checks if the coordinates and the height and with values provided by the detect Multiscale fucntion is existing, which will only happen if the face is found otherwise it'll be an empty tuple, i tried using == insted of is but it crashed.
+    #this checks if the coordinates and the height and with values provided by the detect Multiscale fucntion is existing, which will only happen if the face is found otherwise it'll be an empty tuple, i tried using == insted of is but it crashed.
     
     if faces is ():
         return img
@@ -39,7 +39,7 @@ def fd(img, size=0.5):
 
 cap = cv.VideoCapture(0)
 
-#this is for the window that opens for image showing
+    #this is for the window that opens for image showing
 
 while True:
 
