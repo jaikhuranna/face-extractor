@@ -44,7 +44,7 @@ cap = cv.VideoCapture(0)
 while True:
 
     ret, frame = cap.read()
-    cv.imshow('omg ye to mera face h!!!', fd(frame))
+    cv.imshow('Yeh toh mai hu', fd(frame))
     if cv.waitKey(1) == 13: 
 
     #13 is the Enter Key, yhios is here so that the program can be exited brom the gui itself and Ctrl+C dosent have to be done to close the prpgram as clicking the window cloase button brom the Desktop enviorment dosnt close it
