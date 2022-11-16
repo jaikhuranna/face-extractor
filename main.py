@@ -5,7 +5,7 @@ eclass = cv.CascadeClassifier('haarcascade_eye.xml')
 
 def fd(img, size=0.5):
 
-        #cvtcolor converts img to gray here (it uses BRG insted of RGB)
+    #cvtcolor converts img to gray here (it uses BRG insted of RGB)
     
     gray = cv.cvtColor(img,cv.COLOR_BGR2GRAY)
     faces = fclass.detectMultiScale(gray, 1.3, 5)
