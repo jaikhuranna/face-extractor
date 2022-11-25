@@ -35,7 +35,7 @@ def fd(img, size=0.5):
     roi_color = cv.flip(roi_color,1)
     return roi_color
     
-    # 0 selects default camera feed
+    # 0 selects default camera input
 
 cap = cv.VideoCapture(0)
 
@@ -47,7 +47,7 @@ while True:
     cv.imshow('Yeh toh mai hu', fd(frame))
     if cv.waitKey(1) == 13: 
 
-    #13 is the Enter Key, this is here so that the program can be exited brom the gui itself and Ctrl+C dosent have to be done to close the prpgram as clicking the window cloase button brom the Desktop enviorment dosnt close it
+    #13 is the Enter Key, this is here so that the program can be exited brom the gui itself and Ctrl+C dosent have to be used in order to close the program as clicking the window close button from the Desktop enviorment dosn't close it
     
         break
         
