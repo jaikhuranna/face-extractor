@@ -7,4 +7,4 @@ Face detection and extraction from source using Cascade Classifier and computer 
 
 
 ## Summary
-Face extractor and tracking is implimented with the Caar-Cascade Classifier and OpenCV. haar-Cascade is a Cascade Classifier.
+Face extractor and tracking is implimented with the Haar-Cascade Classifier and OpenCV. haar-Cascade is a Cascade Classifier.
